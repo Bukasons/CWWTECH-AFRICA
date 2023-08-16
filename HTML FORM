@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .form{ display: grid;
+        
+        }
+        input{ border-radius: 5px;}
+        input{ width: 200px; margin-top: 5px; margin-bottom: 5px; display: grid;}
+        label{ text-align: justify;}
+    </style>
+</head>
+<body>
+<h1>This a Form</h1> 
+    
+ <p>Kindly fill the form below with the correct information</p>
+    
+    <div class="Form">
+    <form action="">
+     <div>
+        <label for="Firstname">Firstname:</label>
+        <input type="text"  name="Firstname">
+    </div>
+    <div>
+        <label for="Lastname">Lastname:</label>
+        <input type="text" name="Lastname">
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="Email" name="Email">
+    </div>
+    <div>
+        <label for="Birthday">Date of Birth:</label>
+        <input type="date" name="Birthday">
+    </div>
+    <div>
+        <label for="pwd">Password</label>
+        <input type="password">
+
+    </div>
+    <div><input type="submit" value="submit"></div>
+    </form>
+</body>
+</html>

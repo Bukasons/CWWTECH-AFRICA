@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Temperature Converter</title>
+    <style>
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+<h2>Temperature Converter</h2>
+<label for="tempInput">Enter Temperature:</label>
+<input type="number" name="number" id="temp" placeholder="Enter Temperature">
+<select name="unitSelect">
+    <option value="Celsius">Celsius</option>
+    <option value="Fahrenheit">Fahrenheit</option>
+    <input type="button" value="Convert">
+</select>
+
+    </div>
+</body>
+</html>
